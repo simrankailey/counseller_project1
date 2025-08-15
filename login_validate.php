@@ -11,7 +11,7 @@ if(isset($_REQUEST["submit"]))
     } else {
         include("config.php");
 	
-        $res = mysqli_query($conn,"SELECT * FROM `customer_users` where `u_email`='$user_email' and `u_password`='$password'");
+        $res = mysqli_query($conn,"SELECT * FROM `users` where `email`='$user_email' and `password`='$password'");
         
         if($row = mysqli_fetch_array($res))
         {   
