@@ -2,11 +2,11 @@
 <?php
 session_start();
 // get login user details via session value
-if(isset($_SESSION['email'])){
-    $user_email = $_SESSION['email'];
-} else {
-    echo "<script>window.location.assign('./login.php?msg=Please login first!')</script>";
-}
+// if(isset($_SESSION['email'])){
+//     $user_email = $_SESSION['email'];
+// } else {
+//     echo "<script>window.location.assign('./login.php?msg=Please login first!')</script>";
+// }
 include('header.php')
 
 ?>
@@ -61,11 +61,11 @@ include('header.php')
                     <td><?= $r["created_at"] ?></td>
                   
                     <td>
-                        <?php echo "<a href='./conusers_delete.php?id=$r[p_id]'>
+                        <?php echo "<a href='./conusers_delete.php?id=$r[id]'>
                         <button class='btn btn-danger' name='id'><i class='fa fa-trash'></i></button>
                         </a>"
                         ?>
-                        <?php echo "<a href='./conusers_edit.php?id=$r[p_id]'>
+                        <?php echo "<a href='./conusers_edit.php?id=$r[id]'>
                     <button class='btn btn-info'><i class='fa fa-pencil'></i></button>
                     </a>"
                         ?>
