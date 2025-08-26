@@ -54,11 +54,13 @@
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="counselor.php" class="nav-link">Counselor</a></li>
+	          <li class="nav-item"><a href="users.php" class="nav-link">Users</a></li>
 	          <li class="nav-item"><a href="services.php" class="nav-link">Services</a></li>
 	          <li class="nav-item"><a href="pricing.php" class="nav-link">Pricing</a></li>
 	          <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
 	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+			  <li class="nav-item"><a href="contact_requests.php" class="nav-link">Contact Requests</a></li>
+		
 			 <li class="nav-item"><a href="login.php" class="nav-link">Login</a></li>
 	        </ul>
 	      </div>
