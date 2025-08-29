@@ -26,11 +26,11 @@ include("header.php");
 	              <div class="meta text-center mb-2 d-flex align-items-center justify-content-center">
                 	<div>
                 		<span class="day">18</span>
-                		<span class="mos">April</span>
-                		<span class="yr">2020</span>
+                		<span class="mos">january</span>
+                		<span class="yr">20</span>
                 	</div>
                 </div>
-                <h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a></h3>
+                <h3 class="heading mb-3"><a href="#">"Your Career, Your Future: Smart bGuidence for Success."</a></h3>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
               </div>
             </div>
@@ -47,8 +47,8 @@ include("header.php");
                 		<span class="yr">2020</span>
                 	</div>
                 </div>
-                <h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h3 class="heading mb-3"><a href="#">"Pathfinder:Career Counselling Made Simple."</a></h3>
+                <p>Breaks down complex career choices into easy, practical steps for students, job seekers, and working professionals.</p>
               </div>
             </div>
           </div>
@@ -64,8 +64,9 @@ include("header.php");
                 		<span class="yr">2020</span>
                 	</div>
                 </div>
-                <h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a mb-3></h3>
-								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>              
+                <h3 class="heading mb-3"><a href="#">Your Career Story: Write It Right”
+</a mb-3></h3>
+								<p>→ Encourages readers to take charge of their career journey and create a story of success.</p>              
 							</div>
             </div>
           </div>
@@ -77,13 +78,14 @@ include("header.php");
 	              </a>
 	              <div class="meta text-center mb-2 d-flex align-items-center justify-content-center">
                 	<div>
-                		<span class="day">18</span>
-                		<span class="mos">April</span>
+                		<span class="day">13</span>
+                		<span class="mos">March</span>
                 		<span class="yr">2020</span>
                 	</div>
                 </div>
-                <h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h3 class="heading mb-3"><a href="#">Rise & Shine: Career Growth Guidance”
+</a></h3>
+                <p>→ A motivating blog that shares tips on confidence, career growth, and success mindset.</p>
               </div>
             </div>
           </div>
@@ -99,7 +101,7 @@ include("header.php");
                 		<span class="yr">2020</span>
                 	</div>
                 </div>
-                <h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a></h3>
+                <h3 class="heading mb-3"><a href="#">"Future Ready: Unlock Your Potential."</a></h3>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
               </div>
             </div>
@@ -116,8 +118,9 @@ include("header.php");
                 		<span class="yr">2020</span>
                 	</div>
                 </div>
-                <h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a mb-3></h3>
-								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>              
+                <h3 class="heading mb-3"><a href="#">“The Success Blueprint: Career Guidance Hub”
+  </a mb-3></h3>
+								<p>→ A resource-packed blog offering strategies, plans, and tips to build a solid career foundation.</p>              
 							</div>
             </div>
           </div>
@@ -134,8 +137,8 @@ include("header.php");
                 		<span class="yr">2020</span>
                 	</div>
                 </div>
-                <h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h3 class="heading mb-3"><a href="#">"The Career Lighthouse: Shine Your Way Forward”</a></h3>
+                <p>A guiding blog that helps students and professionals discover their true career path with clarity and confidence.</p>
               </div>
             </div>
           </div>
@@ -151,8 +154,8 @@ include("header.php");
                 		<span class="yr">2020</span>
                 	</div>
                 </div>
-                <h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h3 class="heading mb-3"><a href="#">"From Confusion to Clarity: Career Counseling Hub”</a></h3>
+                <p>→ A blog dedicated to removing career-related doubts and providing clear guidance for personal growth and success.</p>
               </div>
             </div>
           </div>
@@ -168,8 +171,9 @@ include("header.php");
                 		<span class="yr">2020</span>
                 	</div>
                 </div>
-                <h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a mb-3></h3>
-								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>              
+                <h3 class="heading mb-3"><a href="#">Dream, Decide, Do: Career Counseling Insights”
+</a mb-3></h3>
+								<p>→ Inspires readers to dream big, make the right decisions, and take action toward their career goals.</p>              
 							</div>
             </div>
           </div>

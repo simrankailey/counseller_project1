@@ -182,7 +182,7 @@ include("header.php");
 			</div>
 		</section>
 
-		<section class="ftco-section ftco-no-pt bg-light">
+		<!-- <section class="ftco-section ftco-no-pt bg-light">
     	<div class="container">
     		<div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
@@ -238,7 +238,7 @@ include("header.php");
 	        </div>
 	      </div>
     	</div>
-    </section>
+    </section> -->
 <?php
 include("footer.php");
 ?>

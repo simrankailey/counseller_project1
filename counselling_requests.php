@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <?php
 session_start();
 include("header.php");
@@ -8,6 +9,19 @@ include("header.php");
 <section class="hero-wrap hero-wrap-2" style="background-image: url('../asset/images/bg_5.jpg');"
   data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
+=======
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Counselling Form</title>
+  <link rel="stylesheet" href="../asset/css/counselling.css">
+</head>
+<body>
+>>>>>>> Stashed changes
   <div class="container">
     <div class="row no-gutters slider-text align-items-end justify-content-center">
       <div class="col-md-9 ftco-animate mb-5 text-center">

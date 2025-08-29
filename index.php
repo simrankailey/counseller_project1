@@ -2,7 +2,7 @@
 session_start();
 include("header.php");
 ?>
- <div class="hero-wrap" style="background-image: url('../asset/images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+ <div class="hero-wrap" style="background-image: url('../asset/images/first-img.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center">
@@ -61,7 +61,7 @@ include("header.php");
     	</div>
     </section>
 
-		<section class="ftco-section">
+		<!-- <section class="ftco-section">
     	<div class="container">
     		<div class="row justify-content-center pb-5">
           <div class="col-md-7 heading-section text-center ftco-animate">
@@ -108,11 +108,11 @@ include("header.php");
     			</div>
     		</div>
     	</div>
-    </section>
+    </section> -->
 	 <section class="ftco-section ftco-no-pb ftco-no-pt">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(../asset/images/about-1.jpg);">
+					<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(../asset/images/an-instructer.jpg);">
 					</div>
 					<div class="col-md-6 wrap-about px-md-5 ftco-animate py-5 bg-light">
 	          <div class="heading-section">
@@ -173,31 +173,31 @@ Your career</a>
 					<div class="col-md-8">
 						<div class="tab-content">
 						  <div class="tab-pane container p-0 active" id="services-1">
-						  	<div class="img" style="background-image: url(../asset/images/services-1.jpg);"></div>
+						  	<div class="img" style="background-image: url(../asset/images/career-counselling.jpg);"></div>
 						  	<h3><a href="#">Career
 Counselling</a></h3>
 						  	<p>Career counseling is the process of guiding individuals to choose the right career path by understanding their skills, interests, and goals. It helps in making informed decisions about education, jobs, and future opportunities. The aim is not only success but also satisfaction, because “a career is not just about earning a living, it’s about building a life you love.”</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-2">
-						  	<div class="img" style="background-image: url(../asset/images/services-2.jpg);"></div>
+						  	<div class="img" style="background-image: url(../asset/images/psyco-2);"></div>
 						  	<h3><a href="#">Psychological
 Counselling</a></h3>
 						  	<p>Psychological counseling is a supportive process that helps individuals deal with emotional, mental, and behavioral challenges. It provides a safe space to share feelings, reduce stress, and develop healthy coping strategies. The goal is to improve well-being, self-awareness, and inner strength, because “mental health is just as important as physical health.”</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-3">
-						  	<div class="img" style="background-image: url(../asset/images/services-3.jpg);"></div>
+						  	<div class="img" style="background-image: url(../asset/images/personality-c.jpg);"></div>
 						  	<h3><a href="#">Personality
 Development</a></h3>
 						  	<p>Personality development is the process of improving one’s thoughts, behavior, communication, and overall attitude to build confidence and achieve personal growth. It focuses on enhancing both inner qualities, like self-esteem and positivity, and outer traits, like appearance and communication skills. As the saying goes, “Your personality is your best identity.”</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-4">
-						  	<div class="img" style="background-image: url(../asset/images/services-4.jpg);"></div>
+						  	<div class="img" style="background-image: url(../asset/images/career-coching.jpg);"></div>
 						  	<h3><a href="#">Career Coaching &
 Mentoring</a></h3>
 						  	<p>Career coaching and mentoring are powerful tools that guide individuals in shaping their professional journey. Career coaching focuses on setting goals, building skills, and overcoming challenges, while mentoring provides long-term support through shared experience and wisdom. Together, they help individuals gain clarity, confidence, and direction, because “a mentor shows you the path, and a coach helps you walk it.”</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-5">
-						  	<div class="img" style="background-image: url(../asset/images/services-5.jpg);"></div>
+						  	<div class="img" style="background-image: url(../asset/images/restart-career.jpg);"></div>
 						  	<h3><a href="#">Restart
 Your career</a></h3>
 						  	<p>Restarting your career means beginning again with new opportunities, skills, and determination. It is a chance to learn from past experiences, explore fresh paths, and rebuild confidence. With the right guidance and mindset, a career break can turn into a stepping stone for growth, because “it’s never too late to start over and create the life you want.”</p>
@@ -309,7 +309,7 @@ Your career</a></h3>
     </section>
 
 
-		<section class="ftco-section bg-light">
+		<!-- <section class="ftco-section bg-light">
     	<div class="container">
     		<div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
@@ -365,9 +365,9 @@ Your career</a></h3>
 	        </div>
 	      </div>
     	</div>
-    </section>
+    </section> -->
 		
-		<section class="ftco-appointment ftco-section img" style="background-image: url(images/bg_2.jpg);">
+		<!-- <section class="ftco-appointment ftco-section img" style="background-image: url(images/bg_2.jpg);">
 			<div class="overlay"></div>
     	<div class="container">
     		<div class="row">
@@ -418,9 +418,9 @@ Your career</a></h3>
     			</div>
     		</div>
     	</div>
-    </section>
+    </section> -->
 
-    <section class="ftco-section">
+    <!-- <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 heading-section text-center ftco-animate">
@@ -482,7 +482,7 @@ Your career</a></h3>
           </div>
         </div>
       </div>
-    </section>	
+    </section>	 -->
 <?php
 include("footer.php");
 ?>

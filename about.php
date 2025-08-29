@@ -2,7 +2,7 @@
 include("header.php");
 ?>
 <!-- about -->
-<section class="hero-wrap hero-wrap-2" style="background-image: url('../asset/images/bg_5.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('../asset/images/about-bg-2.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -15,22 +15,21 @@ include("header.php");
     </section>
 
     <section class="ftco-section ftco-no-pb ftco-no-pt">
-			<div class="container">
+			<div class="container mt-5">
 				<div class="row">
-					<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(../asset/images/about-1.jpg);">
+					<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(../asset/images/an-instructer.jpg);">
 					</div>
 					<div class="col-md-6 wrap-about px-md-5 ftco-animate py-5 bg-light">
 	          <div class="heading-section py-md-5">
 	          	<span class="subheading">Welcome to Counselor</span>
 	            <h2 class="mb-4">Best Counseling Funding Network Worldwide.</h2>
 
-	            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	            <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
+	            <p>The best counseling is not about giving solutions but about creating a safe space where individuals feel truly heard and understood. As the saying goes, “Healing begins where listening starts.” A good counselor does not try to fix people but gently guides them to discover their own strength and clarity. “The best counseling heals hearts, not just minds,” reminding us that true change comes from within. It is a journey of walking alongside someone through their struggles, offering support, patience, and hope. As many believe, “Counseling is the art of walking with someone through their storm until they find sunshine.” At its core, the best counseling is built on empathy, trust, and understanding—helping people see that they are not alone and that their story matters.</p>
 
-	            <a href="https://vimeo.com/45830194" class="play-video popup-vimeo d-flex align-items-center mt-4">
+	            <!-- <a href="https://vimeo.com/45830194" class="play-video popup-vimeo d-flex align-items-center mt-4">
 	            	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-play"></span></div>
 	            	<span class="watch">Watch Our Consultant Video</span>
-	            </a>
+	            </a> -->
 	          </div>
 
 					</div>
@@ -38,7 +37,7 @@ include("header.php");
 			</div>
 		</section>
 
-		<section class="ftco-counter ftco-section ftco-no-pt ftco-no-pb img bg-light" id="section-counter">
+		<section class="ftco-counter ftco-section ftco-no-pt ftco-no-pb img bg-light mt-5" id="section-counter">
     	<div class="container">
     		<div class="row">
           <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
@@ -78,7 +77,7 @@ include("header.php");
     </section>
 
   
-    <section class="ftco-section testimony-section">
+    <section class="ftco-section testimony-section mt-5">
     	<div class="img img-bg border" style="background-image: url(../asset/images/bg_4.jpg);"></div>
     	<div class="overlay"></div>
       <div class="container">
