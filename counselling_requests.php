@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <?php
 session_start();
 include("header.php");
@@ -10,6 +11,8 @@ include("header.php");
   data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
 =======
+=======
+>>>>>>> Stashed changes
 
 
 <!DOCTYPE html>

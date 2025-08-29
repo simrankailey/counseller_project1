@@ -179,7 +179,11 @@ Counselling</a></h3>
 						  	<p>Career counseling is the process of guiding individuals to choose the right career path by understanding their skills, interests, and goals. It helps in making informed decisions about education, jobs, and future opportunities. The aim is not only success but also satisfaction, because “a career is not just about earning a living, it’s about building a life you love.”</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-2">
+<<<<<<< Updated upstream
 						  	<div class="img" style="background-image: url(../asset/images/psyco-2);"></div>
+=======
+						  	<div class="img" style="background-image: url(../asset/images/psyco-counselling.jpg);"></div>
+>>>>>>> Stashed changes
 						  	<h3><a href="#">Psychological
 Counselling</a></h3>
 						  	<p>Psychological counseling is a supportive process that helps individuals deal with emotional, mental, and behavioral challenges. It provides a safe space to share feelings, reduce stress, and develop healthy coping strategies. The goal is to improve well-being, self-awareness, and inner strength, because “mental health is just as important as physical health.”</p>
