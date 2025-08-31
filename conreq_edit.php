@@ -1,5 +1,9 @@
-<!-- include header file here -->
 <?php 
+session_start();
+//get login user details via session value
+if(!isset($_SESSION['email'])){
+    echo "<script>window.location.assign('./login.php?msg=Please login first!')</script>";
+}
 include("header.php"); 
 include("config.php"); 
 ?>
@@ -121,6 +125,11 @@ if (isset($_GET['id'])) {
             <label>Comments</label>
             <input type="text" name="comments" value="<?php echo $row['comments']; ?>" class="form-control">
           </div>
+        </div>
+          <div class="form-group col-md-6">
+          <label>Has Answered:</label>
+          <input type="radio" name="has_answered" value="yes" <?php if($row['has_answered']=='yes') echo 'checked'; ?>> Yes
+          <input type="radio" name="has_answered" value="no" <?php if($row['has_answered']=='no') echo 'checked'; ?>> No
         </div>
 
         <button type="submit" name="update" class="btn btn-primary col-md-12">Update Counselling Request</button>

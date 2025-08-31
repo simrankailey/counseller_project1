@@ -1,4 +1,9 @@
-<?php
+<?php 
+session_start();
+//get login user details via session value
+if(!isset($_SESSION['email'])){
+    echo "<script>window.location.assign('./login.php?msg=Please login first!')</script>";
+}
 include 'config.php';
 include('header.php');
 $result = $conn->query("SELECT * FROM counselling_requests");
@@ -34,43 +39,45 @@ $result = $conn->query("SELECT * FROM counselling_requests");
                 <th>Interest</th>
                 <th>Career Goal</th>
                 <th>Preferred Country</th>
-                <!-- <th>Comments</th> -->
+                <th>Has Answered</th> <!-- ✅ New column -->
                 <th>Action</th>
             </tr>
 
-            <?php while ($row = $result->fetch_assoc()) { ?>
+            <?php if ($result->num_rows > 0): ?>
+                <?php while ($row = $result->fetch_assoc()) { ?>
+                    <tr>
+                        <td><?php echo $row['id']; ?></td>
+                        <td><?php echo $row['name']; ?></td>
+                        <td><?php echo $row['email']; ?></td>
+                        <td><?php echo $row['phone']; ?></td>
+                        <td><?php echo $row['qualification']; ?></td>
+                        <td><?php echo $row['interest']; ?></td>
+                        <td><?php echo $row['career_goal']; ?></td>
+                        <td><?php echo $row['preferred_country']; ?></td>
+                        <td>
+                            <?php 
+                                echo ($row['has_answered'] == 'yes') 
+                                    ? "<span class='badge bg-success text-white'>Yes</span>" 
+                                    : "<span class='badge bg-warning'>No</span>"; 
+                            ?>
+                        </td>
+                        <td>
+                            <a href="./conreq_edit.php?id=<?php echo $row['id']; ?>">
+                                <button class="btn btn-primary" name="id"><i class="fa fa-edit"></i></button>
+                            </a>
+                            <a href="./conreq_delete.php?id=<?php echo $row['id']; ?>" onclick="return confirm('Are you sure?')">
+                                <button class="btn btn-danger" name="id"><i class="fa fa-trash"></i></button>
+                            </a>
+                        </td>
+                    </tr>
+                <?php } ?>
+            <?php else: ?>
                 <tr>
-                    <td><?php echo $row['id']; ?></td>
-                    <td><?php echo $row['name']; ?></td>
-                    <td><?php echo $row['email']; ?></td>
-                    <td><?php echo $row['phone']; ?></td>
-                    <td><?php echo $row['qualification']; ?></td>
-                    <td><?php echo $row['interest']; ?></td>
-                    <td><?php echo $row['career_goal']; ?></td>
-                    <td><?php echo $row['preferred_country']; ?></td>
-                    <!-- <td><?php echo $row['comments']; ?></td> -->
-                    <td>
-                        <?php
-                        echo "<a href='./conreq_edit.php?id={$row['id']}'>
-        <button class='btn btn-primary' name='id'><i class='fa fa-edit'></i></button>
-      </a>";
-                        ?>
-                        <?php
-                        echo "<a href='./conreq_delete.php?id={$row['id']}' onclick=\"return confirm('Are you sure?')\">
-        <button class='btn btn-danger' name='id'><i class='fa fa-trash'></i></button>
-      </a>";
-                        ?>
-
-
-                    </td>
+                    <td colspan="10" class="text-center">No record to show</td>
                 </tr>
-            <?php } ?>
+            <?php endif; ?>
         </table>
-    </div>
+
     </div>
 </section>
-<?php
-
-include('footer.php')
-
-    ?>
+<?php include('footer.php'); ?>

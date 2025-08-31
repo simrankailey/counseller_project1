@@ -1,5 +1,9 @@
-<?php
+<?php 
 session_start();
+//get login user details via session value
+if(!isset($_SESSION['email'])){
+    echo "<script>window.location.assign('./login.php?msg=Please login first!')</script>";
+}
 include("header.php");
 
 ?>

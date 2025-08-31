@@ -1,4 +1,9 @@
-<?php
+<?php 
+session_start();
+//get login user details via session value
+if(!isset($_SESSION['email'])){
+    echo "<script>window.location.assign('./login.php?msg=Please login first!')</script>";
+}
 include("config.php");
 include("header.php");
 
@@ -12,6 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $career_goal = $_POST['career_goal'];
     $preferred_country = $_POST['preferred_country'];
     $comments = $_POST['comments'];
+    $has_answered = $_POST['has_answered'];
 
     $sql = "UPDATE counselling_requests SET 
                 name='$name', 
@@ -21,7 +27,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 interest='$interest', 
                 career_goal='$career_goal', 
                 preferred_country='$preferred_country', 
-                comments='$comments'
+                comments='$comments',
+                has_answered='$has_answered'
             WHERE id=$id";
 
     if (mysqli_query($conn, $sql)) {

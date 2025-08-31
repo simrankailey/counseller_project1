@@ -1,5 +1,9 @@
-<?php
-
+<?php 
+session_start();
+//get login user details via session value
+if(!isset($_SESSION['email'])){
+    echo "<script>window.location.assign('./login.php?msg=Please login first!')</script>";
+}
 if (isset($_POST["submit"])) {
     $c_name = $_POST["c_name"];
     $c_msg = $_POST["c_msg"];
