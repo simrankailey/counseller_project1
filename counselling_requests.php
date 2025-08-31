@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 <?php
 session_start();
 include("header.php");
@@ -10,21 +8,7 @@ include("header.php");
 <section class="hero-wrap hero-wrap-2" style="background-image: url('../asset/images/bg_5.jpg');"
   data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
-=======
-=======
->>>>>>> Stashed changes
 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Student Counselling Form</title>
-  <link rel="stylesheet" href="../asset/css/counselling.css">
-</head>
-<body>
->>>>>>> Stashed changes
   <div class="container">
     <div class="row no-gutters slider-text align-items-end justify-content-center">
       <div class="col-md-9 ftco-animate mb-5 text-center">
@@ -42,7 +26,7 @@ include("header.php");
     <div class="row justify-content-center">
       <div class="col-md-12">
         <div class="wrapper px-md-4">
-          <div class="row mb-5">
+          <!-- <div class="row mb-5">
             <div class="col-md-3">
               <div class="dbox w-100 text-center">
                 <div class="icon d-flex align-items-center justify-content-center">
@@ -83,7 +67,7 @@ include("header.php");
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="row no-gutters">
             <div class="col-md-12">
               <div class="contact-wrap w-100 p-md-5 p-4">
