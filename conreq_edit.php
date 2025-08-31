@@ -77,6 +77,7 @@ if (isset($_GET['id'])) {
 
     <div class="row">
       <form class="w-100" method="post" action="conreq_update.php" enctype="multipart/form-data">
+          <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
 
         <div class="row justify-content-center">
           <div class="form-group col-md-6">
